@@ -1,2 +1,2 @@
 # dotfile
-config about software in linux 
+config of software in window and linux.
