@@ -90,12 +90,12 @@
   // vim terminal
   // 在多个 terminal 回话中移动
   {
-    "key": "ctrl+alt+j",
+    "key": "ctrl+super+j",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
   },
   {
-    "key": "ctrl+alt+k",
+    "key": "ctrl+super+k",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus && terminalHasBeenCreated && !terminalEditorFocus || terminalFocus && terminalProcessSupported && !terminalEditorFocus"
   },
@@ -116,12 +116,12 @@
   //   "when": "codeActionMenuVisible"
   // },
   {
-    "key": "alt+j",
+    "key": "super+j",
     "command": "workbench.action.terminal.scrollDown",
     "when": "terminalFocus"
   },
   {
-    "key": "alt+k",
+    "key": "super+k",
     "command": "workbench.action.terminal.scrollUp",
     "when": "terminalFocus"
   },
@@ -149,11 +149,11 @@
     "when": "terminalFocus"
   },
   {
-    "key": "alt+h",
+    "key": "super+h",
     "command": "workbench.action.moveActiveEditorGroupLeft"
   },
   {
-    "key": "alt+l",
+    "key": "supesuper+l",
     "command": "workbench.action.moveActiveEditorGroupRight"
   },
   // {
@@ -174,7 +174,7 @@
     "when": "editorTextFocus && vim.mode == 'Normal'"
   },
   {
-    "key": "ctrl+alt+l",
+    "key": "ctrl+super+l",
     "command": "workbench.action.terminal.clear",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
@@ -192,7 +192,7 @@
     "command": "-workbench.action.openGlobalKeybindings"
   },
   {
-    "key": "alt+oem_5",
+    "key": "super+oem_5",
     "command": "workbench.action.toggleFullScreen",
     "when": "!isIOS"
   },
@@ -211,7 +211,7 @@
     "when": "editorTextFocus && vim.active && vim.use<C-e> && !inDebugRepl"
   },
   {
-    "key": "alt+o",
+    "key": "super+o",
     "command": "notebook.cell.changeLanguage"
   }
 ]

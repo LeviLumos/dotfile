@@ -1,7 +1,7 @@
 {
   // Setup font family
-  // "editor.fontFamily": "Maple Mono NF, Jetbrains Mono, Menlo, Consolas, monospace",
-  "editor.fontFamily": "FiraCode Nerd Font",
+  // "editor.fontFamily": "Maple Mono NF, FiraCode Nerd Font, Jetbrains Mono, Menlo, Consolas, monospace",
+  "editor.fontFamily": "Maple Mono NF",
   "editor.tabSize": 2,
   "editor.minimap.enabled": false,
   // "editor.suggestOnTriggerCharacters": false,
@@ -692,11 +692,9 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.editor.wrapTabs": true,
   "workbench.activityBar.location": "hidden"
-
   // auto import or remove, seem do not work
   // "editor.codeActionsOnSave": {
   //   "source.organizeImports": "never",
   //   "source.removeUnusedImports": "always",
   // }
-
 }
