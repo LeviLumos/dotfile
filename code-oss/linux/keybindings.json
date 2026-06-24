@@ -192,14 +192,8 @@
     "command": "-workbench.action.openGlobalKeybindings"
   },
   {
-    "key": "super+oem_5",
+    "key": "meta+\\",
     "command": "workbench.action.toggleFullScreen",
-    "when": "!isIOS"
-  },
-  {
-    "key": "f11",
-    "command": "-workbench.action.toggleFullScreen",
-    "when": "!isIOS"
   },
   {
     "key": "ctrl+p",
